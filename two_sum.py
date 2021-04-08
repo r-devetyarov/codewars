@@ -12,7 +12,6 @@ from typing import List, Tuple
 
 
 def two_sum(numbers: List[int], target: int) -> Tuple[int, int]:
-    enumerate
     index_1, index_2 = None, None
     for number in range(len(numbers)):
         for item in range(len(numbers)):
